@@ -1,0 +1,5119 @@
+{
+  "armature": [
+    {
+      "animation": [
+        {
+          "duration": 2,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 0,
+          "name": "stand",
+          "scale": 15,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -8,
+                    "y": 16
+                  },
+                  "z": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -8,
+                    "y": 16
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "horseLegL2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 13,
+                    "y": 16
+                  },
+                  "z": 1
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 13,
+                    "y": 16
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "horseLegL1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -14,
+                    "y": 16
+                  },
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -14,
+                    "y": 16
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "horseLegR2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 7,
+                    "y": 16
+                  },
+                  "z": 3
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 7,
+                    "y": 16
+                  },
+                  "z": 3
+                }
+              ],
+              "name": "horseLegR1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -20,
+                    "y": 2
+                  },
+                  "z": 4
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": -20,
+                    "y": 2.9500000000000002
+                  },
+                  "z": 4
+                }
+              ],
+              "name": "horseTail",
+              "offset": 0.80000000000000004,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 20,
+                    "y": 0
+                  },
+                  "z": 5
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 5,
+                    "skY": 5,
+                    "x": 20.100000000000001,
+                    "y": 1
+                  },
+                  "z": 5
+                }
+              ],
+              "name": "horseHead",
+              "offset": 0.90000000000000002,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 6
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 1
+                  },
+                  "z": 6
+                }
+              ],
+              "name": "horseBody",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": 5,
+                    "y": -15
+                  },
+                  "z": 7
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 21,
+                    "skY": 21,
+                    "x": 5,
+                    "y": -14
+                  },
+                  "z": 7
+                }
+              ],
+              "name": "armInside",
+              "offset": 0.80000000000000004,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": -16
+                  },
+                  "z": 8
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 8,
+                    "skY": 8,
+                    "x": 0,
+                    "y": -14
+                  },
+                  "z": 8
+                }
+              ],
+              "name": "head",
+              "offset": 0.80000000000000004,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -45,
+                    "skY": -45,
+                    "x": -3,
+                    "y": -1
+                  },
+                  "z": 9
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -45,
+                    "skY": -45,
+                    "x": -3,
+                    "y": 0
+                  },
+                  "z": 9
+                }
+              ],
+              "name": "legOutside",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": -2
+                  },
+                  "z": 10
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": -1
+                  },
+                  "z": 10
+                }
+              ],
+              "name": "body",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -5,
+                    "y": -14
+                  },
+                  "z": 11
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 6,
+                    "skY": 6,
+                    "x": -5,
+                    "y": -13
+                  },
+                  "z": 11
+                }
+              ],
+              "name": "armOutside",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": 2
+        },
+        {
+          "duration": 2,
+          "fadeInTime": 0.111,
+          "loop": 0,
+          "name": "run",
+          "scale": 9,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 64.299999999999997,
+                    "skY": 64.299999999999997,
+                    "x": -4.8499999999999996,
+                    "y": 7.2000000000000002
+                  },
+                  "z": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -45,
+                    "skY": -45,
+                    "x": -8,
+                    "y": 16
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "horseLegL2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -70.700000000000003,
+                    "skY": -70.700000000000003,
+                    "x": 15.75,
+                    "y": 3.2999999999999998
+                  },
+                  "z": 1
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 52,
+                    "skY": 52,
+                    "x": 10.949999999999999,
+                    "y": 17.5
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "horseLegL1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 64.299999999999997,
+                    "skY": 64.299999999999997,
+                    "x": -10.699999999999999,
+                    "y": 8.3499999999999996
+                  },
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -38,
+                    "skY": -38,
+                    "x": -15.85,
+                    "y": 14.199999999999999
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "horseLegR2",
+              "offset": 0.90000000000000002,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -70.700000000000003,
+                    "skY": -70.700000000000003,
+                    "x": 9.9000000000000004,
+                    "y": 4.4500000000000002
+                  },
+                  "z": 3
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 52,
+                    "skY": 52,
+                    "x": 5,
+                    "y": 16.75
+                  },
+                  "z": 3
+                }
+              ],
+              "name": "horseLegR1",
+              "offset": 0.90000000000000002,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 64.299999999999997,
+                    "skY": 64.299999999999997,
+                    "x": -19.25,
+                    "y": -4.2999999999999998
+                  },
+                  "z": 4
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -20.100000000000001,
+                    "y": -0.45000000000000001
+                  },
+                  "z": 4
+                }
+              ],
+              "name": "horseTail",
+              "offset": 0.40000000000000002,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -20,
+                    "skY": -20,
+                    "x": 19.649999999999999,
+                    "y": -13.75
+                  },
+                  "z": 5
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 27,
+                    "skY": 27,
+                    "x": 19.850000000000001,
+                    "y": 2.4500000000000002
+                  },
+                  "z": 5
+                }
+              ],
+              "name": "horseHead",
+              "offset": 0.80000000000000004,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -10.699999999999999,
+                    "skY": -10.699999999999999,
+                    "x": 0,
+                    "y": -10
+                  },
+                  "z": 6
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 6.9900000000000002,
+                    "skY": 6.9900000000000002,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 6
+                }
+              ],
+              "name": "horseBody",
+              "offset": 0.10000000000000001,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 2.6499999999999999,
+                    "y": -25.649999999999999
+                  },
+                  "z": 7
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 30,
+                    "skY": 30,
+                    "x": 7.1500000000000004,
+                    "y": -13.949999999999999
+                  },
+                  "z": 7
+                }
+              ],
+              "name": "armInside",
+              "offset": 0.80000000000000004,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -22,
+                    "skY": -22,
+                    "x": -2.6000000000000001,
+                    "y": -26.75
+                  },
+                  "z": 8
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 20,
+                    "skY": 20,
+                    "x": 2.1000000000000001,
+                    "y": -13.800000000000001
+                  },
+                  "z": 8
+                }
+              ],
+              "name": "head",
+              "offset": 0.69999999999999996,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -34.25,
+                    "skY": -34.25,
+                    "x": -2.7999999999999998,
+                    "y": -10.5
+                  },
+                  "z": 9
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -5,
+                    "skY": -5,
+                    "x": -3.1000000000000001,
+                    "y": -1.5
+                  },
+                  "z": 9
+                }
+              ],
+              "name": "legOutside",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -10,
+                    "skY": -10,
+                    "x": 0,
+                    "y": -12
+                  },
+                  "z": 10
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 10,
+                    "skY": 10,
+                    "x": 0,
+                    "y": -2
+                  },
+                  "z": 10
+                }
+              ],
+              "name": "body",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -15,
+                    "skY": -15,
+                    "x": -7,
+                    "y": -22.949999999999999
+                  },
+                  "z": 11
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": -2.7999999999999998,
+                    "y": -14.65
+                  },
+                  "z": 11
+                }
+              ],
+              "name": "armOutside",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": 2
+        },
+        {
+          "duration": 9,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 1,
+          "name": "jump",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 72.290000000000006,
+                    "skY": 72.299999999999997,
+                    "x": -7.2000000000000002,
+                    "y": 16.399999999999999
+                  },
+                  "z": 0
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 72.290000000000006,
+                    "skY": 72.299999999999997,
+                    "x": -7.2000000000000002,
+                    "y": 16.399999999999999
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "horseLegL2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -62.700000000000003,
+                    "skY": -62.700000000000003,
+                    "x": 13.75,
+                    "y": 15.35
+                  },
+                  "z": 1
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -32.700000000000003,
+                    "skY": -32.700000000000003,
+                    "x": 13.75,
+                    "y": 15.35
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "horseLegL1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 72.290000000000006,
+                    "skY": 72.299999999999997,
+                    "x": -13.15,
+                    "y": 16.649999999999999
+                  },
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 72.290000000000006,
+                    "skY": 72.299999999999997,
+                    "x": -13.15,
+                    "y": 16.649999999999999
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "horseLegR2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -62.700000000000003,
+                    "skY": -62.700000000000003,
+                    "x": 7.7999999999999998,
+                    "y": 15.699999999999999
+                  },
+                  "z": 3
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -32.700000000000003,
+                    "skY": -32.700000000000003,
+                    "x": 7.7999999999999998,
+                    "y": 15.699999999999999
+                  },
+                  "z": 3
+                }
+              ],
+              "name": "horseLegR1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 12.289999999999999,
+                    "skY": 12.289999999999999,
+                    "x": -19.800000000000001,
+                    "y": 3
+                  },
+                  "z": 4
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 102.29000000000001,
+                    "skY": 102.29000000000001,
+                    "x": -19.800000000000001,
+                    "y": 3
+                  },
+                  "z": 4
+                }
+              ],
+              "name": "horseTail",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -12.01,
+                    "skY": -12.01,
+                    "x": 19.949999999999999,
+                    "y": -0.94999999999999996
+                  },
+                  "z": 5
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 21.719999999999999,
+                    "skY": 21.719999999999999,
+                    "x": 19.949999999999999,
+                    "y": -0.94999999999999996
+                  },
+                  "z": 5
+                }
+              ],
+              "name": "horseHead",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -2.7000000000000002,
+                    "skY": -2.7000000000000002,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 6
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -2.7000000000000002,
+                    "skY": -2.7000000000000002,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 6
+                }
+              ],
+              "name": "horseBody",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 7.9900000000000002,
+                    "skY": 7.9900000000000002,
+                    "x": 4.7999999999999998,
+                    "y": -15.15
+                  },
+                  "z": 7
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 37.990000000000002,
+                    "skY": 37.990000000000002,
+                    "x": 4.7999999999999998,
+                    "y": -15.15
+                  },
+                  "z": 7
+                }
+              ],
+              "name": "armInside",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -14,
+                    "skY": -14,
+                    "x": -0.20000000000000001,
+                    "y": -16.949999999999999
+                  },
+                  "z": 8
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15.99,
+                    "skY": 15.99,
+                    "x": -0.20000000000000001,
+                    "y": -16.949999999999999
+                  },
+                  "z": 8
+                }
+              ],
+              "name": "head",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -26.260000000000002,
+                    "skY": -26.260000000000002,
+                    "x": -2.7000000000000002,
+                    "y": -0.90000000000000002
+                  },
+                  "z": 9
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -26.260000000000002,
+                    "skY": -26.260000000000002,
+                    "x": -2.7000000000000002,
+                    "y": -0.90000000000000002
+                  },
+                  "z": 9
+                }
+              ],
+              "name": "legOutside",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -2,
+                    "skY": -2,
+                    "x": 0.29999999999999999,
+                    "y": -2
+                  },
+                  "z": 10
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -2,
+                    "skY": -2,
+                    "x": 0.29999999999999999,
+                    "y": -2
+                  },
+                  "z": 10
+                }
+              ],
+              "name": "body",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -15,
+                    "skY": -15,
+                    "x": -7,
+                    "y": -12.949999999999999
+                  },
+                  "z": 11
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 12.49,
+                    "skY": 12.49,
+                    "x": -7,
+                    "y": -12.949999999999999
+                  },
+                  "z": 11
+                }
+              ],
+              "name": "armOutside",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        }
+      ],
+      "bone": [
+        {
+          "name": "armOutside",
+          "parent": "body",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": -5,
+            "y": -14
+          }
+        },
+        {
+          "name": "body",
+          "parent": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 0,
+            "y": -2
+          }
+        },
+        {
+          "name": "legOutside",
+          "parent": "body",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": -45,
+            "skY": -45,
+            "x": -3,
+            "y": -1
+          }
+        },
+        {
+          "name": "head",
+          "parent": "body",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 0,
+            "y": -16
+          }
+        },
+        {
+          "name": "armInside",
+          "parent": "body",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 15,
+            "skY": 15,
+            "x": 5,
+            "y": -15
+          }
+        },
+        {
+          "name": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "name": "horseHead",
+          "parent": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 20,
+            "y": 0
+          }
+        },
+        {
+          "name": "horseTail",
+          "parent": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": -20,
+            "y": 2
+          }
+        },
+        {
+          "name": "horseLegR1",
+          "parent": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 7,
+            "y": 16
+          }
+        },
+        {
+          "name": "horseLegR2",
+          "parent": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": -14,
+            "y": 16
+          }
+        },
+        {
+          "name": "horseLegL1",
+          "parent": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 13,
+            "y": 16
+          }
+        },
+        {
+          "name": "horseLegL2",
+          "parent": "horseBody",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": -8,
+            "y": 16
+          }
+        }
+      ],
+      "name": "knight",
+      "skin": [
+        {
+          "name": 0,
+          "slot": [
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseLeg",
+                  "transform": {
+                    "pX": 4,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "horseLegL2",
+              "parent": "horseLegL2",
+              "z": 0
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseLeg",
+                  "transform": {
+                    "pX": 4,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "horseLegL1",
+              "parent": "horseLegL1",
+              "z": 1
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseLeg",
+                  "transform": {
+                    "pX": 4,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "horseLegR2",
+              "parent": "horseLegR2",
+              "z": 2
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseLeg",
+                  "transform": {
+                    "pX": 4,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "horseLegR1",
+              "parent": "horseLegR1",
+              "z": 3
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseTail",
+                  "transform": {
+                    "pX": 6,
+                    "pY": 2,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "horseTail",
+              "parent": "horseTail",
+              "z": 4
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseHead",
+                  "transform": {
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "armature"
+                }
+              ],
+              "name": "horseHead",
+              "parent": "horseHead",
+              "z": 5
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseBody",
+                  "transform": {
+                    "pX": 20,
+                    "pY": 2,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "horseBody",
+              "parent": "horseBody",
+              "z": 6
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/arm",
+                  "transform": {
+                    "pX": 2,
+                    "pY": 4,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "armInside",
+              "parent": "armInside",
+              "z": 7
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/head",
+                  "transform": {
+                    "pX": 22,
+                    "pY": 37.950000000000003,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "head",
+              "parent": "head",
+              "z": 8
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/leg",
+                  "transform": {
+                    "pX": 4,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "legOutside",
+              "parent": "legOutside",
+              "z": 9
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/body",
+                  "transform": {
+                    "pX": 7,
+                    "pY": 14,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "body",
+              "parent": "body",
+              "z": 10
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/armOutside",
+                  "transform": {
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "armature"
+                }
+              ],
+              "name": "armOutside",
+              "parent": "armOutside",
+              "z": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "animation": [
+        {
+          "duration": 60,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 0,
+          "name": "unnamed",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 60,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -2,
+                    "y": 2
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "head",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 4,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 17.350000000000001,
+                    "y": -24.050000000000001
+                  },
+                  "z": 1
+                },
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 17.350000000000001,
+                    "y": -24.050000000000001
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 0.040000000000000001,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 17.350000000000001,
+                    "y": -24.050000000000001
+                  },
+                  "tweenEasing": 0,
+                  "z": 1
+                },
+                {
+                  "duration": 50,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 17.350000000000001,
+                    "y": -24.050000000000001
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "eye",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        }
+      ],
+      "bone": [
+        {
+          "name": "eye",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 17.350000000000001,
+            "y": -24.050000000000001
+          }
+        },
+        {
+          "name": "head",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": -2,
+            "y": 2
+          }
+        }
+      ],
+      "name": "knightFolder/horseHead",
+      "skin": [
+        {
+          "name": 0,
+          "slot": [
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseHead_",
+                  "transform": {
+                    "pX": 0,
+                    "pY": 48,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "head",
+              "parent": "head",
+              "z": 0
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/horseEye",
+                  "transform": {
+                    "pX": 6.2000000000000002,
+                    "pY": 6.2000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "eye",
+              "parent": "eye",
+              "z": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "animation": [
+        {
+          "duration": 1,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 1,
+          "name": "ready_sword",
+          "scale": 0,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 30,
+                    "skY": 30,
+                    "x": -6,
+                    "y": 14
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 120,
+                    "skY": 120,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 18,
+          "fadeInTime": 0.29999999999999999,
+          "frame": [
+            {
+              "duration": 10
+            },
+            {
+              "duration": 8,
+              "event": "ready"
+            }
+          ],
+          "loop": 1,
+          "name": "attack_sword_0",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -134.78999999999999,
+                    "skY": -134.78999999999999,
+                    "x": 10,
+                    "y": -12
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "duration": 10,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 60,
+                    "skY": 60,
+                    "x": -14,
+                    "y": 6
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -44.350000000000001,
+                    "skY": -44.350000000000001,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "tweenRotate": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 10,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 165,
+                    "skY": 165,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 18,
+          "fadeInTime": 0.29999999999999999,
+          "frame": [
+            {
+              "duration": 10
+            },
+            {
+              "duration": 8,
+              "event": "ready"
+            }
+          ],
+          "loop": 1,
+          "name": "attack_sword_1",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 105,
+                    "skY": 105,
+                    "x": 5.7000000000000002,
+                    "y": 15.4
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "duration": 10,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -60,
+                    "skY": -60,
+                    "x": 15.699999999999999,
+                    "y": -5.5999999999999996
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 75,
+                    "skY": 75,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 10,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -12,
+                    "skY": -12,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 21,
+          "fadeInTime": 0.29999999999999999,
+          "frame": [
+            {
+              "duration": 11
+            },
+            {
+              "duration": 10,
+              "event": "ready"
+            }
+          ],
+          "loop": 1,
+          "name": "attack_sword_2",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -89.989999999999995,
+                    "skY": -89.989999999999995,
+                    "x": 13.699999999999999,
+                    "y": -7.5999999999999996
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "duration": 12,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 150,
+                    "skY": 150,
+                    "x": -14.1,
+                    "y": 7.2999999999999998
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -20,
+                    "skY": -20,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 12,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 160,
+                    "skY": 160,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 17,
+          "fadeInTime": 0.16700000000000001,
+          "frame": [
+            {
+              "duration": 16
+            },
+            {
+              "action": "ready_sword",
+              "duration": 1
+            }
+          ],
+          "loop": 1,
+          "name": "attack_sword_3",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 150,
+                    "skY": 150,
+                    "x": -14.1,
+                    "y": 7.2999999999999998
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 60,
+                    "skY": 60,
+                    "x": 9.9499999999999993,
+                    "y": 13.050000000000001
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 160,
+                    "skY": 160,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "tweenRotate": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 8,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 60,
+                    "skY": 60,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 8,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 0,
+          "name": "attack_sword_5",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 7,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 1.6499999999999999,
+                    "y": 15.699999999999999
+                  },
+                  "tweenEasing": 0,
+                  "z": 1
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 1.6499999999999999,
+                    "y": 15.699999999999999
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 7,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 89.989999999999995,
+                    "skY": 89.989999999999995,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 0,
+                  "tweenRotate": 2,
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 89.989999999999995,
+                    "skY": 89.989999999999995,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 1,
+          "fadeInTime": 0.29999999999999999,
+          "loop": 1,
+          "name": "ready_pike",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 1,
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 5,
+                    "skY": 5,
+                    "x": 2.0499999999999998,
+                    "y": 16
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 89.989999999999995,
+                    "skY": 89.989999999999995,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 22,
+          "fadeInTime": 0.29999999999999999,
+          "frame": [
+            {
+              "duration": 12
+            },
+            {
+              "duration": 10,
+              "event": "ready"
+            }
+          ],
+          "loop": 1,
+          "name": "attack_pike_1",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 1,
+                  "duration": 9,
+                  "transform": {
+                    "pX": 27.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -135,
+                    "skY": -135,
+                    "x": 9,
+                    "y": -13.25
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 13,
+                  "transform": {
+                    "pX": 27.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 60,
+                    "skY": 60,
+                    "x": -15,
+                    "y": 6
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -45,
+                    "skY": -45,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "tweenRotate": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 165,
+                    "skY": 165,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 22,
+          "fadeInTime": 0.29999999999999999,
+          "frame": [
+            {
+              "duration": 13
+            },
+            {
+              "duration": 9,
+              "event": "ready"
+            }
+          ],
+          "loop": 1,
+          "name": "attack_pike_2",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 1,
+                  "duration": 9,
+                  "transform": {
+                    "pX": 27.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 135,
+                    "skY": 135,
+                    "x": 6,
+                    "y": 15
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 13,
+                  "transform": {
+                    "pX": 27.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -60,
+                    "skY": -60,
+                    "x": 15,
+                    "y": -5
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 75,
+                    "skY": 75,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -12,
+                    "skY": -12,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 22,
+          "fadeInTime": 0,
+          "frame": [
+            {
+              "duration": 21
+            },
+            {
+              "action": "ready_pike",
+              "duration": 1
+            }
+          ],
+          "loop": 1,
+          "name": "attack_pike_3",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 1,
+                  "duration": 3,
+                  "transform": {
+                    "pX": 27.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -60,
+                    "skY": -60,
+                    "x": 15,
+                    "y": -5
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 9,
+                  "transform": {
+                    "pX": -38.850000000000001,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -17,
+                    "y": 2
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 10,
+                  "transform": {
+                    "pX": 35.149999999999999,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 16,
+                    "y": 1
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -12,
+                    "skY": -12,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "tweenRotate": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 180,
+                    "skY": 180,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 10,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 10,
+                    "skY": 10,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 24,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 0,
+          "name": "attack_pike_5",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 1,
+                  "duration": 5,
+                  "transform": {
+                    "pX": -38.600000000000001,
+                    "pY": -0.94999999999999996,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": -16,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 1,
+                  "transform": {
+                    "pX": 35.399999999999999,
+                    "pY": -1,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": 13,
+                    "y": 9.0500000000000007
+                  },
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 5,
+                  "transform": {
+                    "pX": -39.850000000000001,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -16,
+                    "y": -1
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 1,
+                  "transform": {
+                    "pX": 36.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 16,
+                    "y": 2
+                  },
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 5,
+                  "transform": {
+                    "pX": -39.25,
+                    "pY": -0.94999999999999996,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -15,
+                    "skY": -15,
+                    "x": -15,
+                    "y": 5.0499999999999998
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 1,
+                  "transform": {
+                    "pX": 36.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -15,
+                    "skY": -15,
+                    "x": 16,
+                    "y": -1
+                  },
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 5,
+                  "transform": {
+                    "pX": -39.850000000000001,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -16,
+                    "y": -1
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 1,
+                  "duration": 1,
+                  "transform": {
+                    "pX": 36.149999999999999,
+                    "pY": -0.40000000000000002,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 16,
+                    "y": 2
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 5,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -170,
+                    "skY": -170,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 40,
+                    "skY": 40,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                },
+                {
+                  "duration": 5,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -170,
+                    "skY": -170,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                },
+                {
+                  "duration": 5,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 170,
+                    "skY": 170,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 0,
+                  "tweenRotate": -1,
+                  "z": 2
+                },
+                {
+                  "duration": 5,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -170,
+                    "skY": -170,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 1,
+          "fadeInTime": 0.29999999999999999,
+          "loop": 1,
+          "name": "ready_axe",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 2,
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 15,
+                    "skY": 15,
+                    "x": 2,
+                    "y": 16
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 89.989999999999995,
+                    "skY": 89.989999999999995,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 23,
+          "fadeInTime": 0.16700000000000001,
+          "frame": [
+            {
+              "duration": 15
+            },
+            {
+              "duration": 8,
+              "event": "ready"
+            }
+          ],
+          "loop": 1,
+          "name": "attack_axe_1",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 2,
+                  "duration": 10,
+                  "transform": {
+                    "pX": 17.550000000000001,
+                    "pY": 0.34999999999999998,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -45,
+                    "skY": 135,
+                    "x": -8,
+                    "y": 14
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 2,
+                  "duration": 12,
+                  "transform": {
+                    "pX": 17.550000000000001,
+                    "pY": 0.34999999999999998,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 120,
+                    "skY": -60,
+                    "x": 10,
+                    "y": -12
+                  },
+                  "z": 1
+                },
+                {
+                  "displayIndex": 2,
+                  "duration": 1,
+                  "transform": {
+                    "pX": 17.550000000000001,
+                    "pY": 0.34999999999999998,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 120,
+                    "skY": -60,
+                    "x": 10,
+                    "y": -12
+                  },
+                  "tweenEasing": null,
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 10,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 125,
+                    "skY": 125,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -45,
+                    "skY": -45,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 22,
+          "fadeInTime": 0.29999999999999999,
+          "frame": [
+            {
+              "duration": 14
+            },
+            {
+              "duration": 8,
+              "event": "ready"
+            }
+          ],
+          "loop": 1,
+          "name": "attack_axe_2",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 2,
+                  "duration": 9,
+                  "transform": {
+                    "pX": 17.550000000000001,
+                    "pY": 0.34999999999999998,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -120,
+                    "skY": -120,
+                    "x": 10,
+                    "y": -12
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 2,
+                  "duration": 13,
+                  "transform": {
+                    "pX": 17.550000000000001,
+                    "pY": 0.34999999999999998,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 120,
+                    "skY": 120,
+                    "x": -15,
+                    "y": 5
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -45,
+                    "skY": -45,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "tweenRotate": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 13,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 170,
+                    "skY": 170,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 21,
+          "fadeInTime": 0.29999999999999999,
+          "frame": [
+            {
+              "duration": 20
+            },
+            {
+              "action": "ready_axe",
+              "duration": 1
+            }
+          ],
+          "loop": 1,
+          "name": "attack_axe_3",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "displayIndex": 2,
+                  "duration": 12,
+                  "transform": {
+                    "pX": 17.550000000000001,
+                    "pY": 0.34999999999999998,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 120,
+                    "skY": 120,
+                    "x": -15,
+                    "y": 5
+                  },
+                  "tweenEasing": 1,
+                  "tweenRotate": 1,
+                  "z": 1
+                },
+                {
+                  "displayIndex": 2,
+                  "duration": 9,
+                  "transform": {
+                    "pX": 31.399999999999999,
+                    "pY": 0.59999999999999998,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 45,
+                    "skY": 45,
+                    "x": 11.050000000000001,
+                    "y": 12
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "weapon",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 12,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 170,
+                    "skY": 170,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "tweenRotate": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 55,
+                    "skY": 55,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 1,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 1,
+          "name": "ready_bow",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 10,
+                    "skY": 10,
+                    "x": 26,
+                    "y": 3
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "bow",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 10,
+                    "skY": 10,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 9,
+          "fadeInTime": 0.16700000000000001,
+          "frame": [
+            {
+              "duration": 3
+            },
+            {
+              "duration": 5,
+              "event": "fire"
+            },
+            {
+              "action": "ready_bow",
+              "duration": 1
+            }
+          ],
+          "loop": 1,
+          "name": "attack_bow_1",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 9,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -10,
+                    "skY": -10,
+                    "x": 25,
+                    "y": 0
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "bow",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -38.299999999999997,
+                    "skY": 141.69999999999999,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 0,
+                  "z": 2
+                },
+                {
+                  "duration": 5,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.60999999999999999,
+                    "scY": 1,
+                    "skX": 36.93,
+                    "skY": -143.06999999999999,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 10,
+                    "skY": 10,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arm",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        }
+      ],
+      "bone": [
+        {
+          "name": "bow",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 10,
+            "skY": 10,
+            "x": 26,
+            "y": 3
+          }
+        },
+        {
+          "name": "arm",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 120,
+            "skY": 120,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "name": "weapon",
+          "parent": "arm",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 30,
+            "skY": 30,
+            "x": -6,
+            "y": 14
+          }
+        }
+      ],
+      "name": "knightFolder/armOutside",
+      "skin": [
+        {
+          "name": 0,
+          "slot": [
+            {
+              "display": [
+                {
+                  "name": "knightFolder/sword_1",
+                  "transform": {
+                    "pX": 11,
+                    "pY": 9,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                },
+                {
+                  "name": "knightFolder/pike_1",
+                  "transform": {
+                    "pX": 26,
+                    "pY": 8,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -27.149999999999999,
+                    "y": 0.39900000000000002
+                  },
+                  "type": "image"
+                },
+                {
+                  "name": "knightFolder/axe_1",
+                  "transform": {
+                    "pX": 6,
+                    "pY": 9,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -17.550000000000001,
+                    "y": -0.34999999999999998
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "weapon",
+              "parent": "weapon",
+              "z": 1
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/arm",
+                  "transform": {
+                    "pX": 2,
+                    "pY": 4,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "arm",
+              "parent": "arm",
+              "z": 2
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow",
+                  "transform": {
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "armature"
+                }
+              ],
+              "name": "bow",
+              "parent": "bow",
+              "z": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "animation": [
+        {
+          "duration": 1,
+          "fadeInTime": 0.29999999999999999,
+          "loop": 1,
+          "name": "ready_bow",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 180,
+                    "skY": 0,
+                    "x": -9,
+                    "y": 0
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "cb",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -9,
+                    "y": 0
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "ca",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -8,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arrow",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 180,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 4
+                }
+              ],
+              "name": "bb",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 5
+                }
+              ],
+              "name": "ba",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 6
+                }
+              ],
+              "name": "a",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        },
+        {
+          "duration": 9,
+          "fadeInTime": 0.16700000000000001,
+          "loop": 1,
+          "name": "attack_bow_1",
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 150,
+                    "skY": -30,
+                    "x": -39,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 0
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 180,
+                    "skY": 0,
+                    "x": -9,
+                    "y": 0
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "cb",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 30,
+                    "skY": 30,
+                    "x": -39,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 1
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -9,
+                    "y": 0
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "ca",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -38,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 2
+                },
+                {
+                  "duration": 5,
+                  "hide": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -13,
+                    "y": 0
+                  },
+                  "z": 2
+                },
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -8,
+                    "y": 0
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "arrow",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "displayIndex": -1,
+                  "duration": 1
+                },
+                {
+                  "duration": 7,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 0.20000000000000001,
+                    "scY": 1,
+                    "skX": 120,
+                    "skY": 120,
+                    "x": -33,
+                    "y": -10
+                  },
+                  "tweenEasing": 0,
+                  "tweenRotate": 1,
+                  "z": 3
+                },
+                {
+                  "duration": 1,
+                  "hide": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": -8,
+                    "y": 0
+                  },
+                  "z": 3
+                }
+              ],
+              "name": "arrowBackup",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -156,
+                    "skY": 24,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 4
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 180,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 4
+                }
+              ],
+              "name": "bb",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -24,
+                    "skY": -24,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 5
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 5
+                }
+              ],
+              "name": "ba",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 3,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tweenEasing": 1,
+                  "z": 6
+                },
+                {
+                  "duration": 6,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "z": 6
+                }
+              ],
+              "name": "a",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        }
+      ],
+      "bone": [
+        {
+          "name": "arrowBackup",
+          "transform": {
+            "scX": 0.20000000000000001,
+            "scY": 1,
+            "skX": 120,
+            "skY": 120,
+            "x": -33,
+            "y": -10
+          }
+        },
+        {
+          "name": "a",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "name": "ba",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "name": "bb",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 180,
+            "skY": 0,
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "name": "arrow",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": -8,
+            "y": 0
+          }
+        },
+        {
+          "name": "ca",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": -9,
+            "y": 0
+          }
+        },
+        {
+          "name": "cb",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 180,
+            "skY": 0,
+            "x": -9,
+            "y": 0
+          }
+        }
+      ],
+      "name": "knightFolder/bow",
+      "skin": [
+        {
+          "name": 0,
+          "slot": [
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_b",
+                  "transform": {
+                    "pX": 0,
+                    "pY": 30,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "cb",
+              "parent": "cb",
+              "z": 0
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_b",
+                  "transform": {
+                    "pX": 0,
+                    "pY": 30,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "ca",
+              "parent": "ca",
+              "z": 1
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/arrow_1",
+                  "transform": {
+                    "pX": 10,
+                    "pY": 5,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "arrow",
+              "parent": "arrow",
+              "z": 2
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_1",
+                  "transform": {
+                    "pX": 11,
+                    "pY": 50,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "bb",
+              "parent": "bb",
+              "z": 4
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_1",
+                  "transform": {
+                    "pX": 11,
+                    "pY": 50,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "ba",
+              "parent": "ba",
+              "z": 5
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_a",
+                  "transform": {
+                    "pX": 4,
+                    "pY": 4,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "a",
+              "parent": "a",
+              "z": 6
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/arrow_1",
+                  "transform": {
+                    "pX": 10,
+                    "pY": 5,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "arrowBackup",
+              "parent": "arrowBackup",
+              "z": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "animation": [
+        {
+          "duration": 1,
+          "fadeInTime": 0.29999999999999999,
+          "loop": 1,
+          "name": 1,
+          "scale": 1,
+          "timeline": [
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 10,
+                    "y": 34
+                  },
+                  "z": 0
+                }
+              ],
+              "name": "sword_2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 14,
+                    "y": 67
+                  },
+                  "z": 1
+                }
+              ],
+              "name": "sword_3",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 8,
+                    "y": 9
+                  },
+                  "z": 2
+                }
+              ],
+              "name": "sword_1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -0.01,
+                    "skY": 0,
+                    "x": 30,
+                    "y": 120
+                  },
+                  "z": 3
+                }
+              ],
+              "name": "pike_2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": -0.01,
+                    "skY": 0,
+                    "x": 30,
+                    "y": 150
+                  },
+                  "z": 4
+                }
+              ],
+              "name": "pike_3",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 30,
+                    "y": 100
+                  },
+                  "z": 5
+                }
+              ],
+              "name": "pike_1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 7,
+                    "y": 297
+                  },
+                  "z": 6
+                }
+              ],
+              "name": "axe_3",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 5,
+                    "y": 230
+                  },
+                  "z": 7
+                }
+              ],
+              "name": "axe_2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 8,
+                    "y": 175
+                  },
+                  "z": 8
+                }
+              ],
+              "name": "axe_1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 136.55000000000001,
+                    "y": 271
+                  },
+                  "z": 9
+                }
+              ],
+              "name": "bow_2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 135,
+                    "y": 220
+                  },
+                  "z": 10
+                }
+              ],
+              "name": "bow_1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 170,
+                    "y": 320
+                  },
+                  "z": 11
+                }
+              ],
+              "name": "bow_3",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 180,
+                    "y": 200
+                  },
+                  "z": 12
+                }
+              ],
+              "name": "arrow_1",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 180,
+                    "y": 220
+                  },
+                  "z": 13
+                }
+              ],
+              "name": "arrow_2",
+              "offset": 0,
+              "scale": 1
+            },
+            {
+              "frame": [
+                {
+                  "duration": 1,
+                  "transform": {
+                    "pX": 0,
+                    "pY": 0,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 180,
+                    "y": 240
+                  },
+                  "z": 14
+                }
+              ],
+              "name": "arrow_3",
+              "offset": 0,
+              "scale": 1
+            }
+          ],
+          "tweenEasing": null
+        }
+      ],
+      "bone": [
+        {
+          "name": "arrow_3",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 180,
+            "y": 240
+          }
+        },
+        {
+          "name": "arrow_2",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 180,
+            "y": 220
+          }
+        },
+        {
+          "name": "arrow_1",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 180,
+            "y": 200
+          }
+        },
+        {
+          "name": "bow_3",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 170,
+            "y": 320
+          }
+        },
+        {
+          "name": "bow_1",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 135,
+            "y": 220
+          }
+        },
+        {
+          "name": "bow_2",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 136.55000000000001,
+            "y": 271
+          }
+        },
+        {
+          "name": "axe_1",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 8,
+            "y": 175
+          }
+        },
+        {
+          "name": "axe_2",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 5,
+            "y": 230
+          }
+        },
+        {
+          "name": "axe_3",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 7,
+            "y": 297
+          }
+        },
+        {
+          "name": "pike_1",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 30,
+            "y": 100
+          }
+        },
+        {
+          "name": "pike_3",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": -0.01,
+            "skY": 0,
+            "x": 30,
+            "y": 150
+          }
+        },
+        {
+          "name": "pike_2",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": -0.01,
+            "skY": 0,
+            "x": 30,
+            "y": 120
+          }
+        },
+        {
+          "name": "sword_1",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 8,
+            "y": 9
+          }
+        },
+        {
+          "name": "sword_3",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 14,
+            "y": 67
+          }
+        },
+        {
+          "name": "sword_2",
+          "transform": {
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0,
+            "x": 10,
+            "y": 34
+          }
+        }
+      ],
+      "name": "images",
+      "skin": [
+        {
+          "name": 0,
+          "slot": [
+            {
+              "display": [
+                {
+                  "name": "knightFolder/sword_2",
+                  "transform": {
+                    "pX": 13,
+                    "pY": 14,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "sword_2",
+              "parent": "sword_2",
+              "z": 0
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/sword_3",
+                  "transform": {
+                    "pX": 14,
+                    "pY": 18,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "sword_3",
+              "parent": "sword_3",
+              "z": 1
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/sword_1",
+                  "transform": {
+                    "pX": 11,
+                    "pY": 9,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "sword_1",
+              "parent": "sword_1",
+              "z": 2
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/pike_2",
+                  "transform": {
+                    "pX": 32,
+                    "pY": 12,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "pike_2",
+              "parent": "pike_2",
+              "z": 3
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/pike_3",
+                  "transform": {
+                    "pX": 36,
+                    "pY": 16,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "pike_3",
+              "parent": "pike_3",
+              "z": 4
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/pike_1",
+                  "transform": {
+                    "pX": 26,
+                    "pY": 8,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "pike_1",
+              "parent": "pike_1",
+              "z": 5
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/axe_3",
+                  "transform": {
+                    "pX": 6,
+                    "pY": 32,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "axe_3",
+              "parent": "axe_3",
+              "z": 6
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/axe_2",
+                  "transform": {
+                    "pX": 6,
+                    "pY": 20,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "axe_2",
+              "parent": "axe_2",
+              "z": 7
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/axe_1",
+                  "transform": {
+                    "pX": 6,
+                    "pY": 9,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "axe_1",
+              "parent": "axe_1",
+              "z": 8
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_2",
+                  "transform": {
+                    "pX": 16,
+                    "pY": 50,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "bow_2",
+              "parent": "bow_2",
+              "z": 9
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_1",
+                  "transform": {
+                    "pX": 11,
+                    "pY": 50,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "bow_1",
+              "parent": "bow_1",
+              "z": 10
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/bow_3",
+                  "transform": {
+                    "pX": 23,
+                    "pY": 64,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "bow_3",
+              "parent": "bow_3",
+              "z": 11
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/arrow_1",
+                  "transform": {
+                    "pX": 10,
+                    "pY": 5,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "arrow_1",
+              "parent": "arrow_1",
+              "z": 12
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/arrow_2",
+                  "transform": {
+                    "pX": 10.25,
+                    "pY": 8.75,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "arrow_2",
+              "parent": "arrow_2",
+              "z": 13
+            },
+            {
+              "display": [
+                {
+                  "name": "knightFolder/arrow_3",
+                  "transform": {
+                    "pX": 10.45,
+                    "pY": 12.5,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "type": "image"
+                }
+              ],
+              "name": "arrow_3",
+              "parent": "arrow_3",
+              "z": 14
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frameRate": 36,
+  "name": "Knight",
+  "version": 2.3
+}
