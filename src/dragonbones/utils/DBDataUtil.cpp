@@ -10,6 +10,7 @@
 #include "dragonbones/objects/BoneData.h"
 #include "dragonbones/objects/SlotData.h"
 #include "dragonbones/objects/ArmatureData.h"
+#include "TransformUtil.h"
 #include <vector>
 
 DBDataUtil::DBDataUtil() {
@@ -32,7 +33,7 @@ void DBDataUtil::transformArmatureData(ArmatureData* armatureData) {
 			parentBoneData = armatureData->getBoneData(boneData->parent);
 			if (parentBoneData != NULL) {
 				boneData->transform = boneData->global;
-//				TransformUtil::transformPointWithParent(boneData->transform, parentBoneData->global);
+				TransformUtil::transformPointWithParent(boneData->transform, parentBoneData->global);
 			}
 		}
 	}
@@ -47,10 +48,10 @@ void DBDataUtil::transformArmatureDataAnimations(ArmatureData* armatureData) {
 }
 
 void DBDataUtil::transformAnimationData(AnimationData* animationData, ArmatureData* armatureData) {
-	const std::vector<SkinData*> & skinDatas = armatureData->getSkinDataList();
-	SkinData* skinData = skinDatas[0];
-	const std::vector<BoneData*> & boneDataList = armatureData->getBoneDataList();
-	const std::vector<SlotData*> & slotDataList = skinData->getSlotDataList();
+//	const std::vector<SkinData*> & skinDatas = armatureData->getSkinDataList();
+//	SkinData* skinData = skinDatas[0];
+//	const std::vector<BoneData*> & boneDataList = armatureData->getBoneDataList();
+//	const std::vector<SlotData*> & slotDataList = skinData->getSlotDataList();
 //	uint i = boneDataList.size();
 
 //	BoneData* boneData = NULL;

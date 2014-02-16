@@ -23,15 +23,17 @@ ArmatureData::~ArmatureData() {
 void ArmatureData::dispose() {
 	uint i = _boneDataList.size();
 	while (i--) {
-//					_boneDataList[i]->dispose();
+		_boneDataList[i]->dispose();
 	}
+
 	i = _skinDataList.size();
 	while (i--) {
-//					_skinDataList[i]->dispose();
+		_skinDataList[i]->dispose();
 	}
+
 	i = _animationDataList.size();
 	while (i--) {
-//					_animationDataList[i]->dispose();
+//		_animationDataList[i]->dispose();
 	}
 	_boneDataList.clear();
 	_skinDataList.clear();
@@ -91,9 +93,9 @@ void ArmatureData::addSkinData(SkinData* skinData) {
 SkinData* ArmatureData::getSkinData(std::string skinName) {
 	uint i = _skinDataList.size();
 	while (i--) {
-//		if (_skinDataList[i].name == skinName) {
-//			return _skinDataList[i];
-//		}
+		if (_skinDataList[i]->name == skinName) {
+			return _skinDataList[i];
+		}
 	}
 
 	return NULL;
@@ -148,12 +150,12 @@ const std::vector<BoneData*> & ArmatureData::getBoneDataList() {
 }
 
 BoneData* ArmatureData::getBoneData(std::string boneName) {
-//	uint i = _boneDataList.size();
-//	while (i--) {
-//		if (_boneDataList[i].name == boneName) {
-//			return _boneDataList[i];
-//		}
-//	}
+	uint i = _boneDataList.size();
+	while (i--) {
+		if (_boneDataList[i]->name == boneName) {
+			return _boneDataList[i];
+		}
+	}
 	return NULL;
 }
 

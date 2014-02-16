@@ -6,6 +6,7 @@
  */
 
 #include "SkinData.h"
+#include "SlotData.h"
 #include <algorithm>
 #include <stdio.h>
 
@@ -23,19 +24,19 @@ const std::vector<SlotData*> & SkinData::getSlotDataList() {
 }
 
 void SkinData::dispose() {
-//	uint i = _slotDataList.size();
-//	while (i--) {
-//		_slotDataList[i]->dispose();
-//	}
+	uint i = _slotDataList.size();
+	while (i--) {
+		_slotDataList[i]->dispose();
+	}
 	_slotDataList.clear();
 }
 
 SlotData* SkinData::getSlotData(std::string slotName) {
 	uint i = _slotDataList.size();
 	while (i--) {
-//		if (_slotDataList[i].name == slotName) {
-//			return _slotDataList[i];
-//		}
+		if (_slotDataList[i]->name == slotName) {
+			return _slotDataList[i];
+		}
 	}
 	return NULL;
 }
