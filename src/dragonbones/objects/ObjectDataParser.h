@@ -12,7 +12,9 @@
 
 class Point;
 class SkinData;
+class SlotData;
 class BoneData;
+class DisplayData;
 class DBTransform;
 class ArmatureData;
 class SkeletonData;
@@ -37,6 +39,10 @@ private:
 	static AnimationData* parseAnimationData(Json::Value & animationObject, ArmatureData* armatureData, uint frameRate);
 
 	static void parseTransform(Json::Value & transformObject, DBTransform & transform, Point* pivot = NULL);
+
+	static SlotData* parseSlotData(Json::Value & slotObject, SkeletonData* data);
+
+	static DisplayData* parseDisplayData(Json::Value & displayObject, SkeletonData* data);
 };
 
 #endif /* OBJECTDATAPARSER_H_ */

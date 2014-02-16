@@ -7,10 +7,13 @@
 
 #include "ObjectDataParser.h"
 #include "dragonbones/utils/ConstValues.h"
+#include "dragonbones/utils/DBDataUtil.h"
 #include "dragonbones/core/DragonBones.h"
 #include "Point.h"
 #include "BoneData.h"
 #include "SkinData.h"
+#include "SlotData.h"
+#include "DisplayData.h"
 #include "SkeletonData.h"
 #include "ArmatureData.h"
 #include "DBTransform.h"
@@ -61,8 +64,8 @@ ArmatureData* ObjectDataParser::parseArmatureData(Json::Value & armatureObject, 
 		armatureData->addSkinData(parseSkinData(skinObject, data));
 	}
 
-//	DBDataUtil.transformArmatureData(armatureData);
-//	armatureData.sortBoneDataList();
+	DBDataUtil::transformArmatureData(armatureData);
+	armatureData->sortBoneDataList();
 
 	Json::Value & animitions = armatureObject[ConstValues::ANIMATION];
 	for (unsigned int i = 0; i < animitions.size(); i++) {
@@ -111,9 +114,50 @@ void ObjectDataParser::parseTransform(Json::Value & transformObject, DBTransform
 }
 
 SkinData * ObjectDataParser::parseSkinData(Json::Value & skinObject, SkeletonData * data) {
-	SkinData* skinData = NULL;
+	SkinData* skinData = new SkinData();
+	skinData->name = skinObject[ConstValues::A_NAME].asCString();
+
+	Json::Value & slots = skinObject[ConstValues::SLOT];
+
+	for (uint i = 0; i < slots.size(); i++) {
+		Json::Value & slotObject = slots[i];
+		skinData->addSlotData(parseSlotData(slotObject, data));
+	}
 
 	return skinData;
+}
+
+SlotData* ObjectDataParser::parseSlotData(Json::Value & slotObject, SkeletonData* data) {
+	SlotData* slotData = new SlotData();
+	slotData->name = slotObject[ConstValues::A_NAME].asCString();
+	slotData->parent = slotObject[ConstValues::A_PARENT].asCString();
+	slotData->zOrder = slotObject[ConstValues::A_Z_ORDER].asDouble();
+	if (!slotObject.isMember(ConstValues::A_BLENDMODE)) {
+		slotData->blendMode = "normal";
+	} else {
+		slotData->blendMode = slotObject[ConstValues::A_BLENDMODE].asCString();
+	}
+
+	Json::Value & displays = slotObject[ConstValues::DISPLAY];
+
+	for (uint i = 0; i < displays.size(); i++) {
+		Json::Value & displayObject = displays[i];
+		slotData->addDisplayData(parseDisplayData(displayObject, data));
+	}
+
+	return slotData;
+}
+
+DisplayData* ObjectDataParser::parseDisplayData(Json::Value & displayObject, SkeletonData* data) {
+	DisplayData* displayData = new DisplayData();
+	displayData->name = displayObject[ConstValues::A_NAME].asCString();
+	displayData->type = displayObject[ConstValues::A_TYPE].asCString();
+
+	displayData->pivot = data->addSubTexturePivot(0, 0, displayData->name);
+
+	parseTransform(displayObject[ConstValues::TRANSFORM], displayData->transform, &(displayData->pivot));
+
+	return displayData;
 }
 
 AnimationData* ObjectDataParser::parseAnimationData(Json::Value & animationObject, ArmatureData* armatureData,
