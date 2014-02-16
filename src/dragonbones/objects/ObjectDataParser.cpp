@@ -80,7 +80,7 @@ BoneData * ObjectDataParser::parseBoneData(Json::Value & boneObject) {
 	BoneData* boneData = new BoneData;
 
 	boneData->name = boneObject[ConstValues::A_NAME].asCString();
-	boneData->parent = boneObject[ConstValues::A_PARENT].asCString();
+	boneData->parent = boneObject.isMember(ConstValues::A_PARENT) ? boneObject[ConstValues::A_PARENT].asCString() : "";
 	boneData->length = boneObject.isMember(ConstValues::A_LENGTH) ? boneObject[ConstValues::A_LENGTH].asInt() : 0;
 	Json::Value & scaleModeObj = boneObject[ConstValues::A_SCALE_MODE];
 	if (scaleModeObj != Json::Value::null) {
@@ -115,7 +115,10 @@ void ObjectDataParser::parseTransform(Json::Value & transformObject, DBTransform
 
 SkinData * ObjectDataParser::parseSkinData(Json::Value & skinObject, SkeletonData * data) {
 	SkinData* skinData = new SkinData();
-	skinData->name = skinObject[ConstValues::A_NAME].asCString();
+	int nameVal = skinObject[ConstValues::A_NAME].asInt();
+	char temp[64];
+	sprintf(temp, "%d", nameVal);
+	skinData->name = temp;
 
 	Json::Value & slots = skinObject[ConstValues::SLOT];
 

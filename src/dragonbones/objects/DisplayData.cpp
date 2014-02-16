@@ -7,8 +7,7 @@
 
 #include "DisplayData.h"
 
-#include "DBTransform.h"
-#include "Point.h"
+
 
 const std::string DisplayData::ARMATURE = "armature";
 const std::string DisplayData::IMAGE = "image";

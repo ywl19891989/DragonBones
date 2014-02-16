@@ -122,6 +122,7 @@ void ArmatureData::sortBoneDataList() {
 	}
 
 	std::vector<HelpBoneSturct> helpArray;
+	helpArray.resize(i);
 
 	while (i--) {
 		BoneData* boneData = _boneDataList[i];
