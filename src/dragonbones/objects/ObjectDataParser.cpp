@@ -10,13 +10,18 @@
 #include "dragonbones/utils/DBDataUtil.h"
 #include "dragonbones/core/DragonBones.h"
 #include "Point.h"
+#include "Frame.h"
 #include "BoneData.h"
 #include "SkinData.h"
 #include "SlotData.h"
+#include "DBTransform.h"
 #include "DisplayData.h"
 #include "SkeletonData.h"
 #include "ArmatureData.h"
-#include "DBTransform.h"
+#include "AnimationData.h"
+#include "TransformTimeline.h"
+#include "Transformframe.h"
+#include "ColorTransform.h"
 #include <string>
 #include <stdio.h>
 
@@ -69,7 +74,7 @@ ArmatureData* ObjectDataParser::parseArmatureData(Json::Value & armatureObject, 
 
 	Json::Value & animitions = armatureObject[ConstValues::ANIMATION];
 	for (unsigned int i = 0; i < animitions.size(); i++) {
-		Json::Value & animationObject = skins[i];
+		Json::Value & animationObject = animitions[i];
 		armatureData->addAnimationData(parseAnimationData(animationObject, armatureData, frameRate));
 	}
 
@@ -164,8 +169,122 @@ DisplayData* ObjectDataParser::parseDisplayData(Json::Value & displayObject, Ske
 }
 
 AnimationData* ObjectDataParser::parseAnimationData(Json::Value & animationObject, ArmatureData* armatureData,
-		uint frameRate) {
-	AnimationData* animData = NULL;
+		int frameRate) {
+	AnimationData* animationData = new AnimationData();
+	if(animationObject[ConstValues::A_NAME].isString()){
+		animationData->name = animationObject[ConstValues::A_NAME].asCString();
+	}else if(animationObject[ConstValues::A_NAME].isInt()){
+		char temp[64];
+		sprintf(temp, "%d", animationObject[ConstValues::A_NAME].asInt());
+		animationData->name = temp;
+	}
+	animationData->frameRate = frameRate;
+	animationData->loop = animationObject[ConstValues::A_LOOP].asInt();
+	animationData->setFadeInTime(animationObject[ConstValues::A_FADE_IN_TIME].asDouble());
+	animationData->setDuration(animationObject[ConstValues::A_DURATION].asDouble() / frameRate);
+	animationData->setScale(animationObject[ConstValues::A_SCALE].asDouble());
 
-	return animData;
+	if (animationObject.isMember(ConstValues::A_TWEEN_EASING)) {
+		float tweenEase = animationObject[ConstValues::A_TWEEN_EASING].asDouble();
+		animationData->tweenEasing = tweenEase;
+	}
+
+	parseTimeline(animationObject, animationData, ObjectDataParser::parseMainFrame, frameRate);
+
+	TransformTimeline* timeline = NULL;
+	std::string timelineName;
+	Json::Value & timelines = animationObject[ConstValues::TIMELINE];
+	for (uint i = 0; i < timelines.size(); i++) {
+		Json::Value & timelineObject = timelines[i];
+		timeline = parseTransformTimeline(timelineObject, animationData->getDuration(), frameRate);
+		timelineName = timelineObject[ConstValues::A_NAME].asCString();
+		animationData->addTimeline(timeline, timelineName);
+	}
+
+	//DBDataUtil::addHideTimeline(animationData, armatureData);
+	DBDataUtil::transformAnimationData(animationData, armatureData);
+
+	return animationData;
+}
+
+void ObjectDataParser::parseTimeline(Json::Value & timelineObject, Timeline* timeline, FrameParseFunc frameParser,
+		int frameRate) {
+	float position;
+	Frame* frame = NULL;
+	Json::Value & frames = timelineObject[ConstValues::FRAME];
+	for (uint i = 0; i < frames.size(); i++) {
+		Json::Value & frameObject = frames[i];
+		frame = frameParser(frameObject, frameRate);
+		frame->position = position;
+		timeline->addFrame(frame);
+		position += frame->duration;
+	}
+	if (frame) {
+		frame->duration = timeline->getDuration() - frame->position;
+	}
+}
+
+TransformTimeline* ObjectDataParser::parseTransformTimeline(Json::Value &timelineObject, float duration,
+		int frameRate) {
+	TransformTimeline* timeline = new TransformTimeline();
+	timeline->setDuration(duration);
+
+	parseTimeline(timelineObject, timeline, ObjectDataParser::parseTransformFrame, frameRate);
+
+	timeline->setScale(timelineObject[ConstValues::A_SCALE].asDouble());
+	timeline->setOffset(timelineObject[ConstValues::A_OFFSET].asDouble());
+
+	return timeline;
+}
+
+Frame* ObjectDataParser::parseMainFrame(Json::Value & frameObject, int frameRate) {
+	Frame* frame = new Frame();
+	parseFrame(frameObject, frame, frameRate);
+	return frame;
+}
+
+void ObjectDataParser::parseFrame(Json::Value & frameObject, Frame* frame, int frameRate) {
+	frame->duration = frameObject[ConstValues::A_DURATION].asDouble() / frameRate;
+
+#define Get_IF_HASMEMBER(a, b) if(frameObject.isMember(b)){frame->a = frameObject[b].asCString();}
+
+	Get_IF_HASMEMBER(action, ConstValues::A_ACTION);
+	Get_IF_HASMEMBER(event, ConstValues::A_EVENT);
+	Get_IF_HASMEMBER(sound, ConstValues::A_SOUND);
+}
+
+Frame* ObjectDataParser::parseTransformFrame(Json::Value & frameObject, int frameRate) {
+	TransformFrame* frame = new TransformFrame();
+	parseFrame(frameObject, frame, frameRate);
+
+	int hide = frameObject[ConstValues::A_HIDE].asInt();
+	frame->visible = (hide != 1);
+
+	if (frameObject.isMember(ConstValues::A_TWEEN_EASING)) {
+		float tweenEase = frameObject[ConstValues::A_TWEEN_EASING].asDouble();
+		frame->tweenEasing = tweenEase;
+	}
+
+	frame->tweenRotate = frameObject[ConstValues::A_TWEEN_ROTATE].asInt();
+	frame->displayIndex = frameObject[ConstValues::A_DISPLAY_INDEX].asInt();
+	//
+	frame->zOrder = frameObject[ConstValues::A_Z_ORDER].asDouble();
+
+	parseTransform(frameObject[ConstValues::TRANSFORM], frame->global, &frame->pivot);
+	frame->transform = frame->global;
+
+	if (frameObject.isMember(ConstValues::COLOR_TRANSFORM)) {
+		Json::Value & colorTransformObject = frameObject[ConstValues::COLOR_TRANSFORM];
+		frame->color.alphaOffset = colorTransformObject[ConstValues::A_ALPHA_OFFSET].asDouble();
+		frame->color.redOffset = colorTransformObject[ConstValues::A_RED_OFFSET].asDouble();
+		frame->color.greenOffset = colorTransformObject[ConstValues::A_GREEN_OFFSET].asDouble();
+		frame->color.blueOffset = colorTransformObject[ConstValues::A_BLUE_OFFSET].asDouble();
+
+		frame->color.alphaMultiplier = colorTransformObject[ConstValues::A_ALPHA_MULTIPLIER].asDouble() * 0.01f;
+		frame->color.redMultiplier = colorTransformObject[ConstValues::A_RED_MULTIPLIER].asDouble() * 0.01f;
+		frame->color.greenMultiplier = colorTransformObject[ConstValues::A_GREEN_MULTIPLIER].asDouble() * 0.01f;
+		frame->color.blueMultiplier = colorTransformObject[ConstValues::A_BLUE_MULTIPLIER].asDouble() * 0.01f;
+	}
+
+	return frame;
 }
