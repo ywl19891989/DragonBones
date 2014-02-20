@@ -6,6 +6,7 @@
  */
 
 #include "ArmatureData.h"
+#include "AnimationData.h"
 #include "BoneData.h"
 #include "SkinData.h"
 #include <algorithm>
@@ -24,16 +25,19 @@ void ArmatureData::dispose() {
 	uint i = _boneDataList.size();
 	while (i--) {
 		_boneDataList[i]->dispose();
+		delete _boneDataList[i];
 	}
 
 	i = _skinDataList.size();
 	while (i--) {
 		_skinDataList[i]->dispose();
+		delete _skinDataList[i];
 	}
 
 	i = _animationDataList.size();
 	while (i--) {
-//		_animationDataList[i]->dispose();
+		_animationDataList[i]->dispose();
+		delete _animationDataList[i];
 	}
 	_boneDataList.clear();
 	_skinDataList.clear();

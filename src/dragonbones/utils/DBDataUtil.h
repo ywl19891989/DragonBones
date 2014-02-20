@@ -12,6 +12,7 @@
 
 class ArmatureData;
 class AnimationData;
+class TransformTimeline;
 class DBDataUtil {
 public:
 	DBDataUtil();
@@ -23,9 +24,13 @@ public:
 
 	static void transformAnimationData(AnimationData* animationData, ArmatureData* armatureData);
 
+	static void getTimelineTransform(TransformTimeline* timeline, float position, DBTransform* result);
+
+	static void addHideTimeline(AnimationData* animationData, ArmatureData* armatureData);
+
 private:
-	static const DBTransform _helpTransform1;
-	static const DBTransform _helpTransform2;
+	static DBTransform _helpTransform1;
+	static DBTransform _helpTransform2;
 };
 
 #endif /* DBDATAUTIL_H_ */

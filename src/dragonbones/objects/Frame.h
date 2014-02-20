@@ -22,7 +22,7 @@ public:
 	std::string event;
 	std::string sound;
 
-	void dispose();
+	virtual void dispose();
 
 };
 

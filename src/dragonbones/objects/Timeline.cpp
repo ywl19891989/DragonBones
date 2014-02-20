@@ -43,6 +43,7 @@ void Timeline::dispose() {
 	int i = _frameList.size();
 	while (i--) {
 		_frameList[i]->dispose();
+		delete _frameList[i];
 	}
 	_frameList.clear();
 }

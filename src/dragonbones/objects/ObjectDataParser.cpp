@@ -267,7 +267,6 @@ Frame* ObjectDataParser::parseTransformFrame(Json::Value & frameObject, int fram
 
 	frame->tweenRotate = frameObject[ConstValues::A_TWEEN_ROTATE].asInt();
 	frame->displayIndex = frameObject[ConstValues::A_DISPLAY_INDEX].asInt();
-	//
 	frame->zOrder = frameObject[ConstValues::A_Z_ORDER].asDouble();
 
 	parseTransform(frameObject[ConstValues::TRANSFORM], frame->global, &frame->pivot);

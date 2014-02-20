@@ -38,6 +38,7 @@ void SkeletonData::dispose() {
 	for (uint i = 0; i < _armatureDataList.size(); i++) {
 		ArmatureData* armatureData = _armatureDataList[i];
 		armatureData->dispose();
+		delete armatureData;
 	}
 
 	_armatureDataList.clear();
@@ -106,13 +107,10 @@ const Point & SkeletonData::addSubTexturePivot(float x, float y, std::string sub
 void SkeletonData::removeSubTexturePivot(std::string subTextureName) {
 	if (!subTextureName.empty()) {
 		std::map<std::string, Point>::iterator it = _subTexturePivots.find(subTextureName);
-		if(it != _subTexturePivots.end()){
+		if (it != _subTexturePivots.end()) {
 			_subTexturePivots.erase(it);
 		}
 	} else {
-//	for(subTextureName in _subTexturePivots)
-//	{
-//		delete _subTexturePivots[subTextureName];
-//	}
+		_subTexturePivots.clear();
 	}
 }

@@ -27,6 +27,7 @@ void SkinData::dispose() {
 	uint i = _slotDataList.size();
 	while (i--) {
 		_slotDataList[i]->dispose();
+		delete _slotDataList[i];
 	}
 	_slotDataList.clear();
 }

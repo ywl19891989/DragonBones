@@ -17,7 +17,7 @@ public:
 	TransformTimeline();
 	virtual ~TransformTimeline();
 
-	static const TransformTimeline HIDE_TIMELINE;
+	static TransformTimeline HIDE_TIMELINE;
 
 	bool transformed;
 

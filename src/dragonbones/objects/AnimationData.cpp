@@ -40,6 +40,7 @@ void AnimationData::dispose() {
 	while (it != _timelines.end()) {
 		Timeline* timeline = it->second;
 		timeline->dispose();
+		delete timeline;
 	}
 	_timelines.clear();
 }

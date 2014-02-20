@@ -9,7 +9,7 @@
 
 #define NULL 0
 
-const TransformTimeline TransformTimeline::HIDE_TIMELINE;
+TransformTimeline TransformTimeline::HIDE_TIMELINE;
 
 TransformTimeline::TransformTimeline() {
 	_offset = 0;
