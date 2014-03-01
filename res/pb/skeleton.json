@@ -1,0 +1,137 @@
+{
+  "frameRate": 30,
+  "name": "pb",
+  "armature": [
+    {
+      "bone": [
+        {
+          "transform": {
+            "x": 55,
+            "y": 11.1,
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0
+          },
+          "name": "pb_fg"
+        },
+        {
+          "transform": {
+            "x": 55,
+            "y": 11.1,
+            "scX": 1,
+            "scY": 1,
+            "skX": 0,
+            "skY": 0
+          },
+          "name": "pb_bg"
+        }
+      ],
+      "name": "pb",
+      "animation": [
+        {
+          "name": "idle",
+          "tweenEasing": null,
+          "scale": 1,
+          "loop": 1,
+          "duration": 5,
+          "fadeInTime": 0.3,
+          "timeline": [
+            {
+              "name": "pb_bg",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 55,
+                    "y": 11.1,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "pX": 0
+                    "pY": 0,
+                  },
+                  "z": 0,
+                  "duration": 5
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "name": "pb_fg",
+              "scale": 1,
+              "frame": [
+                {
+                  "transform": {
+                    "x": 55,
+                    "y": 11.1,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "pX": 0
+                    "pY": 0,
+                  },
+                  "z": 1,
+                  "duration": 5
+                }
+              ],
+              "offset": 0
+            }
+          ]
+        }
+      ],
+      "skin": [
+        {
+          "slot": [
+            {
+              "name": "pb_bg",
+              "z": 0,
+              "display": [
+                {
+                  "transform": {
+                    "x": -1.35,
+                    "y": -1.35,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "pX": 53.65
+                    "pY": 9.65,
+                  },
+                  "name": "images/pb_bg",
+                  "type": "image"
+                }
+              ],
+              "parent": "pb_bg"
+            },
+            {
+              "name": "pb_fg",
+              "z": 1,
+              "display": [
+                {
+                  "transform": {
+                    "x": -1.35,
+                    "y": -0.85,
+                    "scX": 1,
+                    "scY": 1,
+                    "skX": 0,
+                    "skY": 0,
+                    "pX": 53.65
+                    "pY": 10.15,
+                  },
+                  "name": "images/pb_fg",
+                  "type": "image"
+                }
+              ],
+              "parent": "pb_fg"
+            }
+          ],
+          "name": 0
+        }
+      ]
+    }
+  ],
+  "version": 2.3
+}
