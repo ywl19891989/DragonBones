@@ -10,7 +10,7 @@
 #include <algorithm>
 
 Bone::Bone() :
-		_slot(NULL), _soundManager(NULL) {
+		_soundManager(NULL), _slot(NULL) {
 	// TODO Auto-generated constructor stub
 	scaleMode = 1;
 	_scaleType = 2;
