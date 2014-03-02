@@ -8,6 +8,7 @@
 #include "Slot.h"
 #include "display/IDisplayBridge.h"
 #include "objects/DisplayData.h"
+#include "animation/Animation.h"
 
 Slot::Slot(IDisplayBridge* displayBrideg) {
 	// TODO Auto-generated constructor stub
@@ -232,14 +233,15 @@ void Slot::updateChildArmatureAnimation() {
 
 	if (childArmature) {
 		Animation* childAnimation = childArmature->getAnimation();
-		Animation* thisArmatureAnimation = this->_armature->getAnimation();
 		if (_isHideDisplay) {
 			childAnimation->stop();
 			childAnimation->_lastAnimationState = NULL;
 		} else {
-			if (this->_armature && thisArmatureAnimation->lastAnimationState
-					&& childAnimation->hasAnimation(thisArmatureAnimation->lastAnimationState.name)) {
-				childAnimation->gotoAndPlay(thisArmatureAnimation->lastAnimationState.name);
+			Animation* thisArmatureAnimation = _armature != NULL ? NULL : _armature->getAnimation();
+			AnimationState* lastAnimationState = thisArmatureAnimation != NULL ? NULL : thisArmatureAnimation->getLastAnimationState();
+			if (_armature && lastAnimationState
+					&& childAnimation->hasAnimation(lastAnimationState->name)) {
+				childAnimation->gotoAndPlay(lastAnimationState->name);
 			} else {
 				childAnimation->play();
 			}

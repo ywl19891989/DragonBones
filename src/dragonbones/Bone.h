@@ -39,8 +39,8 @@ public:
 	/**
 	 * The DisplayObject of default Slot of this Bone instance.
 	 */
-	DisplayObject* getDisplay();
-	void setDisplay(DisplayObject* value);
+	void* getDisplay();
+	void setDisplay(void* value);
 
 	void setVisible(bool value);
 

@@ -11,6 +11,7 @@
 #include <algorithm>
 #include "display/IDisplayBridge.h"
 #include "core/DBObject.h"
+#include "animation/Animation.h"
 
 Armature::Armature(void* display) :
 		userData(NULL) {
@@ -70,7 +71,7 @@ void Armature::advanceTime(float passedTime) {
 	unsigned int i;
 	Slot* slot;
 	Armature* childArmature;
-	if (_animation->isPlaying || _needUpdate) {
+	if (_animation->getIsPlaying() || _needUpdate) {
 		_needUpdate = false;
 		_animation->advanceTime(passedTime)
 		passedTime *= _animation->getTimeScale();

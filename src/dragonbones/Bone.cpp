@@ -31,11 +31,11 @@ Armature* Bone::getChildArmature() {
 /**
  * The DisplayObject of default Slot of this Bone instance.
  */
-DisplayObject* Bone::getDisplay() {
+void* Bone::getDisplay() {
 	return _slot ? _slot->getDisplay() : NULL;
 }
 
-void Bone::setDisplay(DisplayObject* value) {
+void Bone::setDisplay(void* value) {
 	if (_slot) {
 		_slot->setDisplay(value);
 	}

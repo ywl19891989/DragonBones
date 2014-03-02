@@ -14,7 +14,7 @@
 #include <math.h>
 
 DBObject::DBObject() :
-		_armature(NULL), _isColorChanged(false), _parent(NULL), _scaleType(-1), fixedRotation(false) {
+		fixedRotation(false), _scaleType(-1), _isColorChanged(false), _parent(NULL), _armature(NULL){
 	// TODO Auto-generated constructor stub
 	_global = new DBTransform();
 	_origin = new DBTransform();
@@ -95,8 +95,7 @@ void DBObject::setArmature(Armature* value) {
 /**
  * Cleans up any resources used by this DBObject instance.
  */
-void DBObject::dispose()
-{
+void DBObject::dispose() {
 //	userData = NULL;
 	_parent = NULL;
 	_armature = NULL;
@@ -107,13 +106,11 @@ void DBObject::dispose()
 	_globalTransformMatrix = NULL;
 }
 
-void DBObject::update()
-{
+void DBObject::update() {
 	_global->scaleX = (_origin->scaleX + _tween->scaleX) * _offset->scaleX;
 	_global->scaleY = (_origin->scaleY + _tween->scaleY) * _offset->scaleY;
 
-	if(_parent)
-	{
+	if (_parent) {
 		float x = _origin->x + _offset->x + _tween->x;
 		float y = _origin->y + _offset->y + _tween->y;
 		Matrix* parentMatrix = _parent->_globalTransformMatrix;
@@ -121,25 +118,19 @@ void DBObject::update()
 		_globalTransformMatrix->tx = _global->x = parentMatrix->a * x + parentMatrix->c * y + parentMatrix->tx;
 		_globalTransformMatrix->ty = _global->y = parentMatrix->d * y + parentMatrix->b * x + parentMatrix->ty;
 
-		if(fixedRotation)
-		{
+		if (fixedRotation) {
 			_global->skewX = _origin->skewX + _offset->skewX + _tween->skewX;
 			_global->skewY = _origin->skewY + _offset->skewY + _tween->skewY;
-		}
-		else
-		{
+		} else {
 			_global->skewX = _origin->skewX + _offset->skewX + _tween->skewX + _parent->_global->skewX;
 			_global->skewY = _origin->skewY + _offset->skewY + _tween->skewY + _parent->_global->skewY;
 		}
 
-		if(_parent->scaleMode >= _scaleType)
-		{
+		if (_parent->scaleMode >= _scaleType) {
 			_global->scaleX *= _parent->getGlobal()->scaleX;
 			_global->scaleY *= _parent->getGlobal()->scaleY;
 		}
-	}
-	else
-	{
+	} else {
 		_globalTransformMatrix->tx = _global->x = _origin->x + _offset->x + _tween->x;
 		_globalTransformMatrix->ty = _global->y = _origin->y + _offset->y + _tween->y;
 
